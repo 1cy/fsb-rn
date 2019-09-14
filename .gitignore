@@ -1,145 +1,62 @@
-######################
-# Project Specific
-######################
-/src/main/webapp/content/css/main.css
-/target/www/**
-/src/test/javascript/coverage/
-
-######################
-# Node
-######################
-/node/
-node_tmp/
-node_modules/
-npm-debug.log.*
-/.awcache/*
-/.cache-loader/*
-
-######################
-# SASS
-######################
-.sass-cache/
-
-######################
-# Eclipse
-######################
-*.pydevproject
-.project
-.metadata
-tmp/
-tmp/**/*
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
-.factorypath
-/src/main/resources/rebel.xml
-
-# External tool builders
-.externalToolBuilders/**
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-
-######################
-# Intellij
-######################
-.idea/
-*.iml
-*.iws
-*.ipr
-*.ids
-*.orig
-classes/
-out/
-
-######################
-# Visual Studio Code
-######################
-.vscode/
-
-######################
-# Maven
-######################
-/log/
-/target/
-
-######################
-# Gradle
-######################
-.gradle/
-/build/
-
-######################
-# Package Files
-######################
-*.jar
-*.war
-*.ear
-*.db
-
-######################
-# Windows
-######################
-# Windows image file caches
-Thumbs.db
-
-# Folder config file
-Desktop.ini
-
-######################
-# Mac OSX
-######################
+# OSX
+#
 .DS_Store
-.svn
 
-# Thumbnails
-._*
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
 
-######################
-# Directories
-######################
-/bin/
-/deploy/
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
 
-######################
-# Logs
-######################
-*.log*
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
 
-######################
-# Others
-######################
-*.class
-*.*~
-*~
-.merge_file*
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
 
-######################
-# Gradle Wrapper
-######################
-!gradle/wrapper/gradle-wrapper.jar
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
 
-######################
-# Maven Wrapper
-######################
-!.mvn/wrapper/maven-wrapper.jar
+# Bundle artifact
+*.jsbundle
 
-######################
-# ESLint
-######################
-.eslintcache
+# CocoaPods
+/ios/Pods/
+fsb.xcworkspace
+
+/ios/Index
